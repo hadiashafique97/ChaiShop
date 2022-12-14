@@ -14,7 +14,7 @@ class Index extends React.Component {
                  return ( 
                  <li>
                     <a href={`/chai/${chai.id}`}>{chai.name.charAt(0).toUpperCase()+ chai.name.slice(1)}</a>
-                    <a href={`/chai/${chai.id}/edit`}>  (Edit This Chai)</a>
+                    
                     { <form action={`/chai/${chai._id}?_method=DELETE`} method="POST">
                   <input type="submit" value="DELETE" /></form> } 
                 </li>
