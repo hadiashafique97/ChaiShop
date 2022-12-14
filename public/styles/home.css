@@ -1,0 +1,17 @@
+:root {
+    background-color: #996a4bfd;
+    text-align: center;
+    padding: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+  a {
+    background-color: rgba(222, 161, 222, 0.393);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+   
+  }
+
+  

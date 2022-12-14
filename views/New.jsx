@@ -4,7 +4,8 @@ class New extends React.Component {
   render() {
     return (
       <div>
-        <h1>New Chai Page</h1>
+        <h1>Add your Chai</h1>
+        <link rel="stylesheet" type="text/css" href="../styles/new.css"/>
         <form action='/chai' method='POST'>
           Name: <input type='text' name='name' />
           <br />
