@@ -8,7 +8,7 @@ class Show extends React.Component {
         <link rel="stylesheet" type="text/css" href="../styles/show.css"/>
         <h1>{chai.name} </h1>
         There is {chai.inventory} {chai.name} 's left <br></br>
-        About: {chai.about}|
+        About: {chai.about}
        <img src={chai.image+ ".jpg"}></img>
        <form action={`/chai/buy/${chai.id}?_method=PUT`} method="POST">
           <input type="submit" value=" Buy "/>

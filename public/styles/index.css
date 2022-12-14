@@ -1,5 +1,69 @@
 :root {
-    background-color: #996a4bfd;
-    text-align: center;
-    padding: 20px;
-  }
+  background-color: seagreen;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h1 {
+  display: flex;
+  text-align: center;
+}
+
+.main {
+  /* background-color: yellowgreen; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  margin: 0px auto;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 70%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li a {
+  background-color: rgba(13, 66, 13, 0.713);
+  display: block;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  padding: 20px;
+  margin: 15px;
+  text-decoration: none;
+  border: 3px solid rgb(91, 60, 83);
+  border-radius: 10px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+li a:hover {
+  transform: scale(1.1);
+  box-shadow: 6px 6px 6px rgba(57, 86, 52, 0.951);
+}
+
+.delete-container {
+  display: inline-flex;
+}
+
+input {
+  background-color: rgb(109, 60, 102);
+  border: 3px solid rgb(11, 7, 10);
+  border-radius: 10px;
+}
+
+input:hover {
+  transform: scale(1.1);
+  box-shadow: 6px 6px 6px rgba(57, 86, 52, 0.951);
+}
