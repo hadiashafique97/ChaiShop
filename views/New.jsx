@@ -8,20 +8,36 @@ class New extends React.Component {
         <link rel="stylesheet" type="text/css" href="../styles/new.css"/>
         
         <form action='/chai' method='POST'>
-          <fieldset>
+          <fieldset className="fieldset-container">
             <legend><h1>Add your Chai</h1></legend>
-          <label>Name:</label> <input type='text' name='name' />
+            <div className="input-container">
+              <div className="cont-1">
+         <input className="input" placeholder="Name" type='text' name='name' />
           <br />
-          <label>Inventory:</label> <input type='number' name='inventory'/>
+          </div>
+          <div className="cont-2">
+            <input className="input" placeholder="Inventory"  type='number' name='inventory'/>
           <br />
-          <label>About:</label>  <input type='text' name='about'/>
+          </div>
+          <div  className="cont-3" >
+            <input className="input" placeholder="About" type='text' name='about'/>
           <br />
-          <label>Img url:</label> <input type='text' name='image'/>
+          </div>
+            <div className="cont-4">
+              <input className="input" placeholder="Image"  type='text' name='image'/>
           <br />
-          <input class="newbutton" type='submit' name='' value='Suggest Chai' />
+          </div>
+           <div className="cont-5">
+            <input className="input" placeholder="Price"  type='text' name='price'/>
+          <br />
+          </div>
+          </div>
+          <input className="submit-button" type='submit' name='' value='Suggest Chai' />
           </fieldset>
+          
         </form>
-        <a href='/chai/'>Return to Menu</a>
+        <a href='/chai/'>Return to Menu</a> <br></br>
+        <a href='/home'> Home </a>
       </div>
     )
   }

@@ -8,23 +8,29 @@ class Index extends React.Component {
             <div className='main'>
                 <link rel="stylesheet" type="text/css" href="../styles/index.css"/>
                <h1> Types of Chai </h1>
-               <div className= "list-container">
-                <ul>
+               <div className= "index-container">
+                <ul className="list-container">
                  {allChai.map((chai, i)=> { 
                  return ( 
                  <li>
                     <a href={`/chai/${chai.id}`}>{chai.name.charAt(0).toUpperCase()+ chai.name.slice(1)}</a>
-                    <div className='delete-container'>
+                    
                     { <form action={`/chai/${chai._id}?_method=DELETE`} method="POST">
-                  <input type="submit" value="DELETE" /></form> } 
-                  </div>
+    
+                    
+                  <input className= "button"type="submit" value="DELETE" />
+                  
+                  </form> } 
+                  
                 </li>
                 
                  )
                  })}
                 </ul>
-
-                
+                 <div className= "nav-container">
+                <a className="button"href='/home'> Home </a>
+                <a className="button" href="/chai/new"> Create New Chai</a>
+                </div>
                 </div>
             </div>
         )

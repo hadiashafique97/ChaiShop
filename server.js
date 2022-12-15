@@ -28,7 +28,8 @@ db.on("open", () => console.log("mongo connected: ", mongoURI))
 db.on("close", () => console.log("mongo disconnected"))
 
 // all my .use 
-app.use(express.static('public'))
+// app.use(express.static('public'))
+app.use(express.static(__dirname + '/public'))
 app.use(methodOverride('_method'))
 
 app.use((req, res, next) => {
