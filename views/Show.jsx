@@ -15,7 +15,7 @@ class Show extends React.Component {
       </form>
         <nav> 
         <a href={`/chai/${chai.id}/edit`}>  (Edit This Chai)</a>
-          <a href='/chai/'>Return to index</a>
+          <a href='/chai/'>Return to Menu</a>
         </nav>
       </div>
     )

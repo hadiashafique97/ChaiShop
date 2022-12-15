@@ -1,5 +1,33 @@
 :root {
-    background-color: #996a4bfd;
-    text-align: center;
-    padding: 20px;
-  }
+  background-color: seagreen;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+
+}
+
+input {
+  display: inline-block;
+  border: 2px solid rgb(91, 60, 83);
+  padding: 12px;
+  border-radius: 3px;
+  width: 250px;
+  justify-content: space-between;
+  outline: 10px;
+}
+
+fieldset {
+  margin: 2em 0;
+  padding: 1em 2em;
+  border: 2px solid rgb(91, 60, 83);
+  border-radius: 10px;
+  justify-content: center;
+
+}
+
+legend {
+  padding: .25em;
+  font-size: larger;
+  color: black;
+}
