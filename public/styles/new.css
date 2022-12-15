@@ -23,11 +23,11 @@ fieldset {
   border: 2px solid rgb(91, 60, 83);
   border-radius: 10px;
   justify-content: center;
-
 }
 
 legend {
   padding: .25em;
   font-size: larger;
   color: black;
+  text-align: right;
 }
