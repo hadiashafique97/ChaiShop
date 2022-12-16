@@ -7,6 +7,9 @@
 h1 {
   display: flex;
   text-align: center;
+  
+    font-size:3em;
+
 }
 
 .main {
@@ -15,9 +18,10 @@ h1 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
-  width: 100vw;
-  margin: 0px auto;
+  padding-top:50px ;
+  /* height: 100vh;
+  width: 100vw; */
+  /* margin: 0px auto; */
 
 }
 .index-container {
@@ -44,6 +48,17 @@ h1 {
   flex:4;
   padding: 0;
   margin:0;
+}
+.nav-container{
+  /* background-color: chocolate; */
+  display: flex;
+  justify-content: center;
+  gap:15px;
+  align-items: center;
+  width:100%;
+  flex:1;
+
+  padding-top: 15px;
 }
 
 li{
@@ -75,10 +90,6 @@ li a:hover {
   box-shadow: 6px 6px 6px rgba(57, 86, 52, 0.951);
 }
 
-
-
-
-
 input:hover {
   transform: scale(1.1);
   box-shadow: 6px 6px 6px rgba(57, 86, 52, 0.951);
@@ -109,13 +120,4 @@ input:hover {
   transform: scale(1.05) rotate(-1deg);
 }
 
-.nav-container{
-  /* background-color: chocolate; */
-  display: flex;
-  justify-content: center;
-  gap:15px;
-  align-items: center;
-  width:100%;
-  flex:1;
-}
 

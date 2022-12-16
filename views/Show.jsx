@@ -18,12 +18,14 @@ class Show extends React.Component {
     return (
       <div className="main-container">
         <link rel="stylesheet" type="text/css" href="../styles/show.css"/>
+        <div className="title-container">
         <h1>{chai.name} </h1>
+        </div>
        <br></br>
        <div className="text-container"> <h5>About:</h5><p> {chai.about}</p><br></br>
        <h5>Price:</h5> <p> {chai.price}</p></div>
+       <div className="img-container"><img src={chai.image+ ".jpg"}></img></div>
        
-       <img src={chai.image+ ".jpg"}></img>
        {renderForm()}
         <nav className="nav-container"> 
         <a href={`/chai/${chai.id}/edit`}>  Edit This Chai </a> 

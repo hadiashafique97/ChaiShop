@@ -4,14 +4,13 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   display: flex;
   justify-content: center;
-  height: 150vh;
   padding: 15px 15px 15px 15px;
   align-items: center;
 }
 
 .input-container {
   background-color: coral;
-
+display: block;
 }
 
 form {
@@ -22,6 +21,7 @@ form {
 .fieldset-container {
   background-color: rgba(13, 93, 25, 0.789);
   margin: 2em 10em;
+  width: 80vw;
   padding: 1em 2em;
   border: 2px solid rgb(91, 60, 83);
   border-radius: 10px;
@@ -51,13 +51,17 @@ placeholder {
   background-color: rgb(91, 60, 83);
   left: 20px;
   padding: 12px 10px;
-  width: 85%;
-  padding: 12px 10px;
+  /* width: 85%; */
+   padding: 12px 10px;
   border-radius: 10px;
-  margin: 10px 10px;
-  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06)
+  margin: 10px 10px; 
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06) 
 }
 
+#about{
+  width: 85%;
+  padding: 10px 10px;
+}
 
 a {
   background-color: #c2fbd7;

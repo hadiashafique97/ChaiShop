@@ -13,14 +13,13 @@ class New extends React.Component {
             <div className="input-container">
               <div className="cont-1">
          <input className="input" placeholder="Name" type='text' name='name' />
-          <br />
-          </div>
-          <div className="cont-2">
+         
+          
             <input className="input" placeholder="Inventory"  type='number' name='inventory'/>
           <br />
           </div>
           <div  className="cont-3" >
-            <input className="input" placeholder="About" type='text' name='about'/>
+            <input  id="about"className="input" placeholder="About" type='text' name='about'/>
           <br />
           </div>
             <div className="cont-4">
@@ -36,8 +35,10 @@ class New extends React.Component {
           </fieldset>
           
         </form>
+        <div className="nav-container">
         <a href='/chai/'>Return to Menu</a> <br></br>
         <a href='/home'> Home </a>
+        </div>
       </div>
     )
   }
