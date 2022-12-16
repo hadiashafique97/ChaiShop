@@ -3,19 +3,23 @@ const React = require("react")
 class New extends React.Component {
   render() {
     return (
-      <div>
-        
+      <div className="main">
+        <div className="title">
+          <h1>Add Your Chai</h1>
+          </div>
+         
         <link rel="stylesheet" type="text/css" href="../styles/new.css"/>
         
-        <form action='/chai' method='POST'>
+        <form className="form" action='/chai' method='POST'>
           <fieldset className="fieldset-container">
-            <legend><h1>Add your Chai</h1></legend>
+           
             <div className="input-container">
               <div className="cont-1">
          <input className="input" placeholder="Name" type='text' name='name' />
-         
-          
+         <br></br>
+          <div>
             <input className="input" placeholder="Inventory"  type='number' name='inventory'/>
+            </div>
           <br />
           </div>
           <div  className="cont-3" >
@@ -31,13 +35,14 @@ class New extends React.Component {
           <br />
           </div>
           </div>
-          <input className="submit-button" type='submit' name='' value='Suggest Chai' />
+          <div className="submit-container">
+          <input className="submit-button" type='submit' name='' value='Suggest Chai' /></div>
           </fieldset>
           
         </form>
         <div className="nav-container">
-        <a href='/chai/'>Return to Menu</a> <br></br>
-        <a href='/home'> Home </a>
+        <a href='/chai/'>Return to Menu</a>  <a href='/home'> Home </a>
+       
         </div>
       </div>
     )
