@@ -4,6 +4,7 @@ class New extends React.Component {
   render() {
     return (
       <div className="main">
+
         <div className="title">
           <h1>Add Your Chai</h1>
           </div>
@@ -17,7 +18,9 @@ class New extends React.Component {
               <div className="cont-1">
          <input className="input" placeholder="Name" type='text' name='name' />
          <br></br>
+         
           <div>
+
             <input className="input" placeholder="Inventory"  type='number' name='inventory'/>
             </div>
           <br />
@@ -41,7 +44,7 @@ class New extends React.Component {
           
         </form>
         <div className="nav-container">
-        <a href='/chai/'>Return to Menu</a>  <a href='/home'> Home </a>
+        <a href='/chai/'>Menu</a>  <a href='/home'> Home </a>
        
         </div>
       </div>
