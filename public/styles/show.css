@@ -40,7 +40,7 @@ h1{
 .nav-container {
   /* background-color: coral; */
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   text-decoration: none;
   padding-bottom: 10px;
 }

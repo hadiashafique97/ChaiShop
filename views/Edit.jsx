@@ -46,7 +46,7 @@ class Edit extends React.Component {
           </fieldset>
         </form>
         <div className="nav-container">
-        <a href='/chai/'>Menu</a>  <a href='/home'> Home </a>
+        <a href='/chai/'>Menu</a>  <a href='/home'> Home </a> 
        
         </div>
 
