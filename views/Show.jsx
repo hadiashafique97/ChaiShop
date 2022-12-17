@@ -31,6 +31,9 @@ class Show extends React.Component {
         <a href={`/chai/${chai.id}/edit`}>  Edit This Chai </a> 
           <a href='/chai/'> Return to Menu</a> <a href='/home'> Home </a>
         </nav>
+        <div className='copyright'>
+            <span>&copy; Hadia Shafique</span>
+            </div>
       </div>
     )
   }

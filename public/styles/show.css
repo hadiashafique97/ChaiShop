@@ -36,6 +36,9 @@ h1{
   display: inline-block;
   justify-items: space-evenly;
 }
+.copyright{
+  display: flex;
+}
 
 .nav-container {
   /* background-color: coral; */

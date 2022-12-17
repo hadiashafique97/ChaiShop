@@ -32,6 +32,7 @@ class Index extends React.Component {
                 <a className="button" href="/chai/new"> Create New Chai</a>
                 </div>
                 </div>
+                
             </div>
         )
     }

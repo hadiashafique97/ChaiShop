@@ -47,6 +47,9 @@ class New extends React.Component {
         <a href='/chai/'>Menu</a>  <a href='/home'> Home </a>
        
         </div>
+        <div className='copyright'>
+            <span>&copy; Hadia Shafique</span>
+            </div>
       </div>
     )
   }

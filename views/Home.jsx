@@ -24,6 +24,11 @@ class Home extends React.Component {
             <div class="nav-container">
                <a href="/chai"> Menu </a>
             <a href="/chai/new"> Create New Chai</a>
+
+            
+            </div>
+            <div className='copyright'>
+            <span>&copy; Hadia Shafique</span>
             </div>
             </div>
         )

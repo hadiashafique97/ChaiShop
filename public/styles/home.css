@@ -6,6 +6,9 @@
 h1{
   font-size:5em;
 }
+.copyright{
+  display: flex;
+}
 .main {
   display: flex;
   flex-direction: column;
