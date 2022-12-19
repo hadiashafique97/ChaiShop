@@ -4,6 +4,9 @@
 
 My motivation for this store was to bring everyone together while they explore different tea's across the globe. I wanted to give the element of a 'pit stop' that allows you to explore, try new things and also gives you an experience. 
 
+
+### Youtube link 
+[Youtube](https://youtu.be/YWFz5vKhKbo)
 ### Github link 
 [Pit Stop Chai Shop](https://github.com/hadiashafique97/ChaiShop.git)
 
