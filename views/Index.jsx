@@ -28,7 +28,7 @@ class Index extends React.Component {
                  })}
                 </ul>
                  <div className= "nav-container">
-                <a className="button"href='/home'> Home </a>
+                <a className="button"href='/'> Home </a>
                 <a className="button" href="/chai/new"> Create New Chai</a>
                 </div>
                 </div>

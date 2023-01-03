@@ -48,7 +48,7 @@ app.set('view engine', 'jsx')
 app.engine('jsx', require('express-react-views').createEngine())
 
 
-app.get('/home', (req, res) => {
+app.get('/', (req, res) => {
   res.render('Home')
 })
 // INDEX //

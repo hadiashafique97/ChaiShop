@@ -44,7 +44,7 @@ class New extends React.Component {
           
         </form>
         <div className="nav-container">
-        <a href='/chai/'>Menu</a>  <a href='/home'> Home </a>
+        <a href='/chai/'>Menu</a>  <a href='/'> Home </a>
        
         </div>
         <div className='copyright'>

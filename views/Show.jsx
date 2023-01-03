@@ -29,7 +29,7 @@ class Show extends React.Component {
        {renderForm()}
         <nav className="nav-container"> 
         <a href={`/chai/${chai.id}/edit`}>  Edit This Chai </a> 
-          <a href='/chai/'> Menu</a> <a href='/home'> Home </a>
+          <a href='/chai/'> Menu</a> <a href='/'> Home </a>
         </nav>
         <div className='copyright'>
             <span>&copy; Hadia Shafique</span>
